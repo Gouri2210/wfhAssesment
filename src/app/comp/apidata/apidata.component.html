@@ -1,0 +1,16 @@
+<div class="table-responsive">
+<table class="table">
+    <tr>
+        <th>User Id</th>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Body</th>
+    </tr>
+    <tr *ngFor ="let storeData of readDt">
+        <td>{{storeData.userId}}</td>
+        <td>{{storeData.id}}</td>
+        <td>{{storeData.title}}</td>
+        <td>{{storeData.body}}</td>
+    </tr>
+</table>
+</div>
